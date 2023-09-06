@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WK Consulting Services - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS styles go here */
+        /* ... (Your existing styles) ... */
+
+        /* Ensure content fills the entire viewport */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Centering the Content */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0; /* Remove margin to fill the entire viewport width */
+        }
+
+        /* Navigation Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 2; /* Ensure navigation is above the content */
+            width: 100%; /* Make the header span the entire viewport width */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+
+        /* Homepage Styles */
+        .homepage {
+            display: flex;
+            flex-direction: column; /* Change to column layout for better mobile responsiveness */
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+            background-image: url('nGrKQcgOJLn5xPYd0rFPAkJ7zuW_SOyMqVlMx-SG558-1631082173.jpeg'); /* Add your background image path here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay */
+            height: 100vh; /* Ensure the section takes the full viewport height */
+            text-align: center; /* Center text within the section */
+            width: 100%; /* Make the homepage section span the entire viewport width */
+        }
+
+        .homepage h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .quote-container {
+            max-width: 800px; /* Increase the maximum width */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .quote {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WK Consulting Services</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="#">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- Homepage Section -->
+    <div class="homepage">
+        <div class="quote-container">
+            <h2>Welcome to Our Home</h2>
+            <p>Embarking on the intricate dance of urban life, our engineering company orchestrates the symphony of photons and electrons within the arterial circulatory system of the metropolis. With an unswerving commitment to optimizing the temporal equilibrium of vehicular and pedestrian flows, we delve into the quantum realms of traffic signal technology. Our team, akin to alchemists of the digital epoch, transmutes raw data into elegant choreographies of signal phases and timings, weaving an unseen tapestry that harmonizes the arteries of the city, ensuring the uninterrupted flow of both information and vehicles. As modern-day cryptographers of mobility, we decipher the hieroglyphics of congestion, unlocking the secrets of efficient urban traversal. Join us in the exploration of this profound intersection between physics and artistry, where the traffic light becomes a beacon of our relentless pursuit of equilibrium in motion</p>
+        </div>
+    </div>
+</body>
+</html>
